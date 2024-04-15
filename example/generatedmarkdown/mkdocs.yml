@@ -1,0 +1,5 @@
+# Project information
+site_name: Generated E-Book
+
+theme:
+  name: material
