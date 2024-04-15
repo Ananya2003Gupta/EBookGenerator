@@ -1,0 +1,61 @@
+# Project information
+site_name: EBook Generator
+site_author: Ananya Gupta
+site_description: Convert PDFs to interactive eBooks rendered using Material for MkDocs
+
+# Repository
+repo_name: Ananya2003Gupta/EBookGenerator
+repo_url: https://github.com/Ananya2003Gupta/EBookGenerator
+
+# Copyright
+copyright: Copyright &copy; 2024 Ananya Gupta
+
+# Configuration
+theme:
+  name: material
+  features:
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - navigation.footer
+    - navigation.indexes
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: blue
+      accent: sky
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: blue
+      accent: white
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+
+#Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Ananya2003Gupta
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/ananyagupta05/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/iamananyagupta_

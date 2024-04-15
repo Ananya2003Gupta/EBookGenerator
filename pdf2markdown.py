@@ -51,7 +51,7 @@ class PDFProcessor:
         """
         for filename in os.listdir(self.pdf_directory):
             if filename.endswith(".pdf"):
-                markdown_filename = filename.replace(".pdf", "_markdown.md")
+                markdown_filename = filename.replace(".pdf", ".md")
                 markdown_path = os.path.join(self.markdown_directory, markdown_filename)
                 
                 # Check if the Markdown file already exists

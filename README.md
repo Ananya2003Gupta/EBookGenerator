@@ -1,6 +1,6 @@
 # EBook Generator
 
-Convert PDFs to interactive eBooks rendered using MkDocs.
+Convert PDFs to interactive eBooks rendered using Material for MkDocs.
 
 ## Setup
 
@@ -42,9 +42,9 @@ Convert PDFs to interactive eBooks rendered using MkDocs.
     python main.py
     ```
 
-6. Navigate to the generatedmarkdown directory:
+6. Navigate to the ebookgenerator directory:
    ```bash
-    cd example/generatedmarkdown
+    cd ebookgenerator
     ```
 
 7. Execute the below command to render ebook
