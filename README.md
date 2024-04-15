@@ -2,11 +2,6 @@
 
 Convert PDFs to interactive eBooks rendered using MkDocs.
 
-**Work in Progress**
-
-- **Completed:** Basic PDF to Markdown conversion.
-- **To Do:** Automate the rendering of generated Markdown files using MkDocs.
-
 ## Setup
 
 1. Clone the repository:
@@ -50,7 +45,3 @@ Convert PDFs to interactive eBooks rendered using MkDocs.
 ## PDF to Markdown Generation
 
 The process of converting PDFs to Markdown files was implemented using the guidance provided in this [article](https://soulheartgrit.medium.com/see-how-easily-you-can-transform-pdfs-into-sleek-markdown-without-complex-tools-819aea4940a0).
-
-## Rendering of Generated Markdown Files using MkDocs
-
-The approach for rendering the generated Markdown files using MkDocs will be based on the [MkDocs recipe guide](https://mkdocstrings.github.io/recipes/).
