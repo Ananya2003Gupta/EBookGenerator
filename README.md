@@ -42,6 +42,16 @@ Convert PDFs to interactive eBooks rendered using MkDocs.
     python main.py
     ```
 
+6. Navigate to the generatedmarkdown directory:
+   ```bash
+    cd example/generatedmarkdown
+    ```
+
+7. Execute the below command to render ebook
+   ```bash
+    mkdocs serve
+    ```
+
 ## PDF to Markdown Generation
 
 The process of converting PDFs to Markdown files was implemented using the guidance provided in this [article](https://soulheartgrit.medium.com/see-how-easily-you-can-transform-pdfs-into-sleek-markdown-without-complex-tools-819aea4940a0).
