@@ -9,14 +9,19 @@ Convert PDFs to interactive eBooks rendered using Material for MkDocs.
     ```bash
     git clone https://github.com/Ananya2003Gupta/EBookGenerator
     ```
+    
+2. Navigate to the repository directory:
+     ```bash
+    cd EBookGenerator
+    ```
 
-2. Create a Python virtual environment:
+3. Create a Python virtual environment:
 
     ```bash
     python -m venv env
     ```
 
-3. Activate the virtual environment:
+4. Activate the virtual environment:
 
     - On Windows:
 
@@ -30,24 +35,24 @@ Convert PDFs to interactive eBooks rendered using Material for MkDocs.
         source env/bin/activate
         ```
 
-4. Install the required dependencies:
+5. Install the required dependencies:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-5. Run the main script to test the example:
+6. Run the main script to test the example:
 
     ```bash
     python main.py
     ```
 
-6. Navigate to the ebookgenerator directory:
+7. Navigate to the ebookgenerator directory:
    ```bash
     cd ebookgenerator
     ```
 
-7. Execute the below command to render ebook
+8. Execute the below command to render ebook
    ```bash
     mkdocs serve
     ```
